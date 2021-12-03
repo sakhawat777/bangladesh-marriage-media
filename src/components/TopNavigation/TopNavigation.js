@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import logIn from '../asset/image/user.png'
-import logo from '../asset/image/logo.png'
+import logIn from '../../asset/image/user.png'
+import logo from '../../asset/image/logo.png'
 import './TopNavigation.css'
 const TopNavigation = () => {
 	return (
