@@ -1,10 +1,11 @@
 .main-class {
 	background-color: #f48f7a;
 	color: white;
+	margin-top: 105px;
 }
 .main-class h1 {
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 50px;
 }
 .para-1 {
 	text-align: right;
@@ -32,8 +33,4 @@
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-.footer-section a {
-	color: white;
-	text-decoration: none;
 }
