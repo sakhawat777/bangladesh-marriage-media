@@ -2,6 +2,15 @@
 	background-color: silver;
 	color: white;
 }
+.main-class h1 {
+	text-align: center;
+	padding-top: 20px;
+}
 .para-1 {
-	margin-left: 530px;
+	text-align: right;
+	margin-right: 355px;
+}
+.input-bio {
+	margin-top: 20px;
+	text-align: end;
 }

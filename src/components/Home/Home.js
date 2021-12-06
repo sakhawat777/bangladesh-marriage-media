@@ -6,12 +6,15 @@ const Home = () => {
 	return (
 		<>
 			<TopNavigation></TopNavigation>
-			<div className='main-class'>
+			<section className='main-class'>
+				<div>
 				<h1>
 					দু’জনের পারস্পরিক ভালোবাসা স্থাপনের <br /> জন্য বিবাহের বিকল্প
 					নেই।
 				</h1>
 				<p className='para-1'>ইবনু মাজাহ-১৮৪৭</p>
+				</div>
+				<div>
 				<Container>
 					<Row>
 						<Col lg={2} md={4} sm={12}>
@@ -91,12 +94,79 @@ const Home = () => {
 							<h5>জেলা</h5>
 							<Form.Select aria-label='Default select example'>
 								<option value=''>সব জেলা</option>
+								<option value='ঢাকা'>ঢাকা</option>
+								<option value='ফরিদপুর'>ফরিদপুর</option>
+								<option value='গাজীপুর'>গাজীপুর</option>
+								<option value='গোপালগঞ্জ'>গোপালগঞ্জ</option>
+								<option value='কিশোরগঞ্জ'>কিশোরগঞ্জ</option>
+								<option value='মাদারীপুর'>মাদারীপুর</option>
+								<option value='মানিকগঞ্জ'>মানিকগঞ্জ</option>
+								<option value='মুন্সিগঞ্জ'>মুন্সিগঞ্জ</option>
+								<option value='নারায়ণগঞ্জ'>নারায়ণগঞ্জ</option>
+								<option value='নরসিংদী'>নরসিংদী</option>
+								<option value='রাজবাড়ী'>রাজবাড়ী</option>
+								<option value='শরীয়তপুর'>শরীয়তপুর</option>
+								<option value='টাঙ্গাইল'>টাঙ্গাইল</option>
 							</Form.Select>
 						</Col>
 					</Row>
+					<div className='input-bio'>
+						<Row>
+							<Col lg={12} md={12} sm={12}>
+								<input
+									class='bio-search'
+									id='submit'
+									type='submit'
+									value='বায়োডাটা খুজুন'
+								/>
+							</Col>
+						</Row>
+						
+					</div>
+					
 				</Container>
-			</div>
+				</div>
+				<div>
+				<Container>
+	
+							<Row>
+							<h5>বায়োডাটা কোড</h5>
+							
+								<Col lg={8} md={8} sm={12}>
+								
+								<Row>
+								
+								<input
+										class='code'
+										id='code'
+										name='code'
+										type='text'
+										placeholder='বায়োডাটা কোড লিখুন(বাংলায়, যেমনঃ ১০১০)'
+									/>
+								</Row>
+								</Col>
+								<Col lg={1} md={1} sm={12}>
+									<Row>
+									
+									</Row>
+								</Col>
+								<Col lg={3} md={3} sm={12}>
+									<Row>
+									<input
+										class='bio-search'
+										id='submit'
+										type='submit'
+										value='কোড দিয়ে বায়োডাটা খুজুন'
+									/>
+									</Row>
+								</Col>
+							</Row>
+						</Container>
+				</div>
+			</section>
+			
 		</>
+		
 	);
 };
 
