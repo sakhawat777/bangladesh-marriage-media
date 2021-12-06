@@ -126,13 +126,17 @@ const Home = () => {
 					
 				</Container>
 				</div>
-				<div>
+				<section>
+					
 				<Container>
 	
 							<Row>
-							<h5>বায়োডাটা কোড</h5>
 							
+							<h5 id="bio-header">বায়োডাটা কোড</h5>
+						      	
 								<Col lg={8} md={8} sm={12}>
+								
+								<Container>
 								
 								<Row>
 								
@@ -144,13 +148,12 @@ const Home = () => {
 										placeholder='বায়োডাটা কোড লিখুন(বাংলায়, যেমনঃ ১০১০)'
 									/>
 								</Row>
+								</Container>
 								</Col>
-								<Col lg={1} md={1} sm={12}>
-									<Row>
+								
+								<Col lg={4} md={4} sm={12}>
 									
-									</Row>
-								</Col>
-								<Col lg={3} md={3} sm={12}>
+									<Container>
 									<Row>
 									<input
 										class='bio-search'
@@ -159,10 +162,34 @@ const Home = () => {
 										value='কোড দিয়ে বায়োডাটা খুজুন'
 									/>
 									</Row>
+									</Container>
+									
 								</Col>
 							</Row>
 						</Container>
-				</div>
+				</section>
+				<section>
+					<section className="bio-button-section">
+					<Container>
+						<Row>
+							<Col lg={6} md={6} sm={12}>
+							<Container>
+							<Row>
+							<button>বায়োডাটা তৈরি ও সার্চ(ভিডিও)</button>
+							</Row>
+							</Container>
+							</Col>
+							<Col lg={6} md={6} sm={12}>
+								<Container>
+								<Row>
+								<button>আপনার বায়োডাটা তৈরি করুন</button>
+								</Row>
+								</Container>
+							</Col>
+						</Row>
+					</Container>
+					</section>
+				</section>
 			</section>
 			
 		</>
