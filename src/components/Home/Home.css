@@ -1,5 +1,5 @@
 .main-class {
-	background-color: silver;
+	background-color: #f48f7a;
 	color: white;
 }
 .main-class h1 {
@@ -16,7 +16,24 @@
 }
 .bio-button-section {
 	margin-top: 40px;
+	padding-bottom: 40px;
 }
 #bio-header {
 	margin-left: 10px;
+}
+#home-bio-data {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.footer-section {
+	text-align: center;
+	background-color: #f48f7a;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-section a {
+	color: white;
+	text-decoration: none;
 }
