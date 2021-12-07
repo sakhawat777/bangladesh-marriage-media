@@ -7,7 +7,7 @@ const AboutUs = () => {
 		<div>
 			<TopNavigation></TopNavigation>
 			<section className='about-us'>
-				<h2>আমাদের সম্পর্কে</h2>
+				<h2 className='about-h2'>আমাদের সম্পর্কে</h2>
 				<p>
 					আলহামদুলিল্লাহ সকল প্রশংসা মহান আল্লাহ তায়ালার এবং দুরুদ ও সালাম
 					প্রিয় নবী মুহাম্মদ(সঃ) উপরে।

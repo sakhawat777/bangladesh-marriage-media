@@ -1,0 +1,21 @@
+.contact-section {
+	margin-top: 180px;
+	margin-bottom: 80px;
+}
+.contact-us {
+	margin-top: 1rem;
+	font-size: 28px;
+	font-weight: 600;
+}
+.contact-details {
+	color: #2b2b2b;
+	margin-top: 1rem;
+	font-size: 14px;
+	font-weight: 400;
+}
+.submit-btn {
+	margin-top: 15px;
+}
+#email-id {
+	margin-right: 8px;
+}
