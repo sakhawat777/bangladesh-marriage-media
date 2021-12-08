@@ -53,7 +53,7 @@ const CreateBiodata = () => {
 						<button
 							onClick={btnHandleClick}
 							type='button'
-							class='btn btn-primary but'
+							className='btn btn-primary but'
 							id='btn1'>
 							Next
 						</button>

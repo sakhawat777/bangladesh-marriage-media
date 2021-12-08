@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import logIn from '../../asset/image/user.png';
 import logo from '../../asset/image/logo.svg';
 import './TopNavigation.css';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const TopNavigation = () => {
 	return (

@@ -137,7 +137,7 @@ const CreateBiodata2 = () => {
 							name='jobPlace'
 							id='jobPlace'
 							placeholder='যেমনঃ ঢাকা'
-							class='jobPlace'></input>
+							className='jobPlace'></input>
 						<p>পেশা *</p>
 						<Form.Select
 							name='occupation2'
@@ -404,8 +404,11 @@ const CreateBiodata2 = () => {
 							id='monthlySalary'
 							placeholder='মাসিক আয়/বেতন লিখুনঃ ২৫ হাজার'
 						/>
-						<button type='button' class='btn btn-primary but' id='btn1'>
-							Sunmit
+						<button
+							type='button'
+							className='btn btn-primary but'
+							id='btn1'>
+							Submit
 						</button>
 					</Row>
 				</Container>

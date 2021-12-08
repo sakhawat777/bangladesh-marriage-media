@@ -184,7 +184,7 @@ const Home = () => {
 							<Row>
 								<Col lg={12} md={12} sm={12}>
 									<input
-										class='bio-search'
+										className='bio-search'
 										id='submit'
 										type='submit'
 										value='বায়োডাটা খুজুন'
@@ -203,7 +203,7 @@ const Home = () => {
 								<Container>
 									<Row>
 										<input
-											class='code'
+											className='code'
 											id='code'
 											name='code'
 											type='text'
@@ -217,7 +217,7 @@ const Home = () => {
 								<Container>
 									<Row>
 										<input
-											class='bio-search'
+											className='bio-search'
 											id='submit'
 											type='submit'
 											value='কোড দিয়ে বায়োডাটা খুজুন'
