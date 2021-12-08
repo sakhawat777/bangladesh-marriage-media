@@ -8,6 +8,8 @@ import QuestionAndAnswer from './components/QuestionAndAnswer/QuestionAndAnswer'
 import Contact from './components/Contact/Contact';
 import Tutorial from './components/Tutorial/Tutorial';
 import LogIn from './components/LogIn/LogIn';
+import CreateBiodata from './components/CreateBiodata/CreateBiodata';
+import CreateBiodata2 from './components/CreateBiodata2/CreateBiodata2';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path='/contact' element={<Contact/>} />
           <Route path='/tutorial' element={<Tutorial/>} />
           <Route path='/logIn' element={<LogIn/>} />
+          <Route path='/create-biodata' element={<CreateBiodata/>} />
+          <Route path='/create-biodata/page2' element={<CreateBiodata2/>} />
           <Route path='*' element={<NoMatch />} />
 				
 					

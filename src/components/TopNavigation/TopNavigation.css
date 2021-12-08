@@ -5,3 +5,17 @@
 .logo-img {
 	height: 80px;
 }
+.navbar-css {
+	text-decoration: none !important;
+}
+.navbar-css {
+	text-decoration: none;
+	margin-right: 15px;
+	color: rgb(138, 20, 20);
+}
+.navbar-css:hover {
+	color: coral;
+}
+.active {
+	color: blue;
+}
