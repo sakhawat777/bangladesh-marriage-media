@@ -156,14 +156,12 @@ const Home = () => {
 									<option value='মেহেরপুর'>মেহেরপুর</option>
 									<option value='নড়াইল'>নড়াইল</option>
 									<option value='সাতক্ষীরা'>সাতক্ষীরা</option>
-									<option value=''>নির্বাচন করুন</option>
 									<option value='বরিশাল'>বরিশাল</option>
 									<option value='ভোলা'>ভোলা</option>
 									<option value='বরগুনা'>বরগুনা</option>
 									<option value='ঝালকাঠি'>ঝালকাঠি</option>
 									<option value='পটুয়াখালী'>পটুয়াখালী</option>
 									<option value='পিরোজপুর'>পিরোজপুর</option>
-									<option value=''>নির্বাচন করুন</option>
 									<option value='রংপুর'>রংপুর</option>
 									<option value='গাইবান্ধা'>গাইবান্ধা</option>
 									<option value='দিনাজপুর'>দিনাজপুর</option>
@@ -172,7 +170,6 @@ const Home = () => {
 									<option value='পঞ্চগড়'>পঞ্চগড়</option>
 									<option value='ঠাকুরগাঁও'>ঠাকুরগাঁও</option>
 									<option value='কুড়িগ্রাম'>কুড়িগ্রাম</option>
-									<option value=''>নির্বাচন করুন</option>
 									<option value='ময়মনসিংহ'>ময়মনসিংহ</option>
 									<option value='জামালপুর'>জামালপুর</option>
 									<option value='নেত্রকোণা'>নেত্রকোণা</option>

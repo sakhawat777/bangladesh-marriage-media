@@ -106,7 +106,6 @@ const CreateBiodata2 = () => {
 							<option value='ঝালকাঠি'>ঝালকাঠি</option>
 							<option value='পটুয়াখালী'>পটুয়াখালী</option>
 							<option value='পিরোজপুর'>পিরোজপুর</option>
-							<option value=''>নির্বাচন করুন</option>
 							<option value='রংপুর'>রংপুর</option>
 							<option value='গাইবান্ধা'>গাইবান্ধা</option>
 							<option value='দিনাজপুর'>দিনাজপুর</option>
