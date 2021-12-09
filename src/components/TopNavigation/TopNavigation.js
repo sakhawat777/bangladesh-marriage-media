@@ -14,55 +14,31 @@ const TopNavigation = () => {
 			variant='light'
 			fixed='top'>
 			<Container className='nav-bar'>
-				<NavLink exact to='/'>
+				<NavLink to='/'>
 					<img className='logo-img' src={logo} alt='' />
 				</NavLink>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
 					<Nav className='me-auto'>
-						<NavLink
-							className='navbar-css'
-							exact
-							activeClassName='active'
-							to='/'>
+						<NavLink className='navbar-css' to='/'>
 							হোম
 						</NavLink>
 
-						<NavLink
-							className='navbar-css'
-							exact
-							activeClassName='active'
-							to='/about-us'>
+						<NavLink className='navbar-css' to='/about-us'>
 							আমাদের সম্পর্কে
 						</NavLink>
-						<NavLink
-							className='navbar-css'
-							exact
-							activeClassName='active'
-							to='/q&a'>
+						<NavLink className='navbar-css' to='/q&a'>
 							প্রশ্ন ও উত্তর
 						</NavLink>
-						<NavLink
-							className='navbar-css'
-							exact
-							activeClassName='active'
-							to='/tutorial'>
+						<NavLink className='navbar-css' to='/tutorial'>
 							টিউটোরিয়াল
 						</NavLink>
-						<NavLink
-							className='navbar-css'
-							exact
-							activeClassName='active'
-							to='/contact'>
+						<NavLink className='navbar-css' to='/contact'>
 							যোগাযোগ
 						</NavLink>
 					</Nav>
 					<Nav>
-						<NavLink
-							className='navbar-css'
-							exact
-							activeClassName='active'
-							to='/logIn'>
+						<NavLink className='navbar-css' to='/logIn'>
 							<img className='logIn-img' src={logIn} alt='' />
 							LogIn
 						</NavLink>
